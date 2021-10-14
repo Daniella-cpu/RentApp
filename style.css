@@ -64,7 +64,6 @@ nav ul li a.start{
 }
 
 main .banner{
-    /* flex-wrap: wrap; */
     padding: 90px 18px;
     display: flex;
     justify-content: center;
@@ -142,7 +141,6 @@ main .explore .desc {
 main .explore .boxcontainers {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     padding: 0px;
 }
 
