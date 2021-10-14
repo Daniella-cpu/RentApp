@@ -434,3 +434,9 @@ main .footer .foot a:hover{
 
 }
 
+@media(min-width: 468px){
+    main .banner {
+        flex-wrap: wrap;
+    }
+}
+
