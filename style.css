@@ -1,0 +1,471 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Circular,-apple-system,Segoe UI,Roboto,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Helvetica Neue,Helvetica,Arial,sans-serif;
+
+}
+
+.logo img{
+    width: 140px;
+    margin-left: 20px;
+}
+.navbar{
+    box-sizing: content-box;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 0px;
+    z-index: 999;
+    align-items: center;
+    /* padding: 10px; */
+    /* margin-left: 10px; */
+    background-color: #ffff;
+    position: fixed;
+    height: 63px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 40px;
+    font-size:.8rem;
+    
+}
+nav ul li a{
+    line-height:1.5;
+    font-weight: 600;
+    white-space: nowrap
+
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+nav ul li a.navlink:hover{
+    color: #2FB8AD;
+}
+nav ul li a.login{
+    color: #2FB8AD;
+}
+nav ul li a.start{
+    padding: 4px 16px ;
+    text-align: center;
+    border: 1px solid #2FB8AD;
+    border-radius: 5px;
+    background-color: #2FB8AD;
+    color: #ffff;
+    /* font-size: .9rem;  */
+}
+
+main .banner{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   /* width: 100vw; */
+   padding: 90px 18px;
+
+   
+}
+
+
+main .banner .searchForm {
+    max-width: 600.38px;
+    min-width: 240px;
+    padding: 70px 90px;
+}
+
+main .banner .searchForm .description h1 {
+    font-family: "Tiempos Headline Bold";
+    line-height: 4.3rem;
+    font-size: 50.4px;
+    margin: 0px;
+}
+main .banner .searchForm .description p {
+    font-size: 15.5px;
+    line-height: 1.4em;
+    margin: 0px 0px 32.4px;
+}
+main .banner .searchForm form select {
+    cursor: pointer;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 11px 70px 11px 11px;
+    border-radius: 4px;
+    border-color: rgb(229, 229, 229);
+}
+main .banner .searchForm form button {
+    cursor: pointer;
+    white-space: nowrap;
+    background-color: rgb(47, 184, 173);
+    font-weight: bold;
+    color: white;
+    margin-left: 5px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 5px;
+    padding: 12px 17px;
+}
+main .banner .picture {
+    padding: 0px 72px;
+}
+main .banner .picture img {
+    max-width: 100%;
+}
+
+/* main .explore {
+   
+    background-color: rgb(249, 250, 252);
+    text-align: center;
+    padding: 85px;
+}
+
+main .explore .boxcontainers {
+    
+    display: flex;
+  
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+main .explore .boxcontainers div {
+    text-align: center;
+    min-width: 105.4px;
+    padding: 0px 15px;
+    overflow: hidden;
+}
+main .explore .boxcontainers div p {
+    position: relative;
+    white-space: nowrap;
+    top: 50%;
+    font-size: 19.8px;
+    font-family: "Helvetica 55 Roman";
+    color: white;
+    margin: 5% 0px;
+} */
+
+main .explore {
+    background-color: rgb(249, 250, 252);
+    text-align: center;
+    padding: 85px;
+} 
+
+main .explore .topic {
+    font-size: 28.8px;
+    font-weight: 700;
+}
+main .explore .desc {
+    font-size: 16.2px;
+    margin: 18px 0px 0px;
+}
+main .explore .boxcontainers {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+
+main .explore .boxcontainers div {
+    text-align: center;
+    min-width: 105.4px;
+    padding: 0px 15px;
+    overflow: hidden;
+}
+main .explore .boxcontainers div p {
+    position: relative;
+    white-space: nowrap;
+    top: 50%;
+    font-size: 19.8px;
+    color: white;
+    margin: 5% 0px;
+}
+
+main .booking {
+    width: 100%;
+    text-align: center;
+    padding: 90px 18px;
+}
+
+main .booking .titlep {
+    /* font-family: "Tiempos Headline Bold"; */
+    font-size: 29.9px;
+    font-weight: 600;
+    color: rgb(43, 43, 43);
+    padding: 24.12px 0px 0px;
+    margin: 0px;
+}
+main .booking .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* width: 100%; */
+}
+main .booking .container .item {
+    max-width: 400px;
+    text-align: left;
+    padding: 46.8px;
+}
+main .booking .container .item div {
+    max-width: 243.84px;
+}
+main .booking .container .item div p {
+    font-weight: 800;
+    font-size: 10.8px;
+    color: rgb(7, 44, 99);
+    margin: 0px 0px 21.6px;
+}
+main .booking .container .item p {
+    /* font-family: "Tiempos Headline Bold"; */
+    line-height: 1.5em;
+    font-weight: 700;
+    font-size: 27.92px;
+    color: rgb(43, 43, 43);
+    margin: 0px 0px 21.6px;
+}
+main .booking .container .item span {
+    font-size: 14.4px;
+    color: rgb(94, 110, 125);
+}
+
+main .budget {
+    background-color: rgb(29, 36, 50);
+    width: 100%;
+    padding: 90px 18px;
+}
+
+main .budget .budgetcont {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin: 0px;
+}
+main .budget .budgetcont .buditem1 {
+    padding: 32.4px 90px;
+}
+main .budget .budgetcont .buditem1 p {
+    color: white;
+    font-family: "Tiempos Headline Bold";
+    font-size: 37.8px;
+    max-width: 232.31px;
+    line-height: 1.45em;
+    margin: 0px;
+}
+main .budget .budgetcont .buditem1 div {
+    height: 8px;
+    width: 97.2px;
+    background-color: white;
+    margin: 58.5px 0px 0px;
+}
+main .budget .budgetcont .buditem23{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 351.3px;
+    max-width: 480px;
+    padding: 32.4px 90px;
+}
+main .budget .budgetcont .buditem23 img {
+    width: 55px;
+    margin-bottom: 23px;
+}
+main .budget .budgetcont .buditem23 .budp {
+    font-size: 16.2px;
+    color: white;
+    margin: 0px 0px 18.9px;
+}
+main .budget .budgetcont .buditem23 p {
+    color: #FFFFFF;
+    font-size: 1rem;
+    min-width: 50px;
+    margin-bottom: 2.8125rem;
+    font-weight: 600;
+}
+main .budget .budgetcont .buditem23 a {
+    width: 100%;
+    white-space: nowrap;
+    color: rgb(47, 184, 173);
+    font-size: 14px;
+    background-color: rgba(62, 211, 163, 0.1);
+    text-align: center;
+    text-decoration: none;
+    padding: 13px 17px;
+    border-radius: 4px;
+    transition: all .3s cubic-bezier(.645,.045,.355,1);
+}
+main .budget .budgetcont .buditem23 a:hover{
+    background-color: #2FB8AD;
+    color: #ffff;
+}
+
+main .landlord{
+    background-color: rgba(62, 211, 163, 0.1);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 90px 162px;
+
+}
+main .landlord .landt {
+    font-family: "Tiempos Headline Bold";
+    font-weight: 600;
+    font-size: 35.8px;
+    color: rgb(43, 43, 43);
+    min-width: 280px;
+    margin: 0px auto;
+
+}
+main .landlord .landp {
+    text-align: center;
+    color: rgb(43, 43, 43);
+    font-size: 16.2px;
+    font-weight: 600;
+    line-height: 1.8em;
+    min-width: 300px;
+    max-width: 500px;
+    margin: 40.5px 0px 32.85px;
+}
+main .landlord a {
+    white-space: nowrap;
+    color: rgb(47, 184, 173);
+    font-size: 14px;
+    background-color: white;
+    text-align: center;
+    width: 103.7px;
+    text-decoration: none;
+    padding: 13px 15px;
+    border-radius: 4px;
+}
+main .landlord a:hover {
+    background-color: #2FB8AD;
+    color: #ffff;
+}
+
+main .newsletter {
+    background-color: rgb(249, 250, 252);
+    text-align: center;
+    width: 100%;
+    padding: 90px 162px;
+}
+main .newsletter .newst {
+    font-family: "Tiempos Headline Bold";
+    font-weight: 600;
+    font-size: 28.8px;
+    color: rgb(43, 43, 43);
+    margin: 0px;
+}
+
+main .newsletter .newsp {
+    font-size:0.875rem,1.125rem ;
+    line-height: 1.6em;
+    margin-top: 10px;
+    color: rgb(43, 43, 43);
+    font-weight: 600;
+}
+main .newsletter form {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 2.7rem;
+}
+main .newsletter form input {
+    height: 43.2px;
+    width: 376.31px;
+    padding: 4px 11px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(229, 229, 229);
+    border-image: initial;
+    border-radius: 4px;
+}
+main .newsletter form button {
+    height: 43.2px;
+    color: #ffff;
+    background-color: #2FB8AD;
+    text-align: center;
+    width: 120.49px;
+    margin-left: 7.2px;
+    border-radius: 4px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    padding: 13px 15px;
+    cursor: pointer;
+    transition:all 250ms ease-in-out;
+}
+main .newsletter form button:hover {
+    background-color: #29cfc1;
+}
+
+main .footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(20, 20, 20);
+    width: 100%;
+    padding: 70.2px 90px;
+}
+main .footer .foot{
+    padding-right: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+main .footer .contact {
+    flex-grow: 6;
+    min-width: 237px;
+}
+main .footer .contact img {
+    max-width: 100px;
+    margin-bottom: 15px;
+}
+main .footer .contact p {
+    font-size: 13.6px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.6);
+    margin: 12.6px 0px;
+}
+main .footer .contact p a {
+    color: rgb(47, 184, 173);
+    text-decoration: none;
+}
+main .footer .contact .social {
+    display: flex;
+    justify-content: flex-start;
+}
+main .footer .contact .social img {
+    height: 16px;
+    margin-right: 14.4px;
+}
+main .footer .foot p {
+    color: white;
+    font-size: 12.6px;
+    margin: 0px 0px 12.6px;
+}
+main .footer .foot a {
+    font-size: 13.2px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.6);
+    padding: 12px 0px;
+    text-decoration: none;
+}
+main .footer .foot a:hover{
+    color: #2FB8AD;
+
+}
+
