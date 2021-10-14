@@ -64,7 +64,7 @@ nav ul li a.start{
 }
 
 main .banner{
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     padding: 90px 18px;
     display: flex;
     justify-content: center;
