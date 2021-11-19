@@ -462,7 +462,7 @@ main .footer .foot a:hover{
 
 @media(max-width: 600px){
     main .banner {
-        padding: 0 0rem 13rem  0rem;
+        padding: 5rem 0rem 13rem  0rem;
         flex-wrap: wrap;
     }
     main .banner .searchForm form {
