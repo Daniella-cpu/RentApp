@@ -20,12 +20,12 @@
 .navbar {
     position: fixed;
     box-sizing: content-box;
-    width: 100%;
+    width: 100vw;
     background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 1.5rem;
+    padding: 1rem 0;
     /* align-items: center; */
     /* height: 63px; */
     z-index: 999;
@@ -91,7 +91,7 @@ ul li{
 
 
 main .banner{
-    padding: 90px 18px;
+    padding: 10rem 18px;
     display: flex;
     justify-content: center;
    
@@ -461,11 +461,52 @@ main .footer .foot a:hover{
 }
 
 @media(max-width: 600px){
+    
     main .banner {
-        padding: 5rem 0rem 13rem  0rem;
+        padding: 5rem 0rem 4rem  0rem;
         flex-wrap: wrap;
     }
     main .banner .searchForm form {
+        flex-wrap: wrap;
+    }
+    main .banner .searchForm{
+        padding: 31px 25px;
+        width: 100vw;
+    }
+    main .banner .description h1{
+        line-height: 3.3rem;
+        font-size: 36.54px;
+
+    }
+    .banner form{
+        display: block;
+        min-width: 100%;
+    }
+    .banner form select{
+        display: block;
+        min-width: 100%;
+    }
+    .banner form button{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 15.66px;
+    }
+    .banner .picture{
+        display: none;
+    }
+
+    main .explore{
+        padding: 80px 17px;
+    }
+    main .explore .topic{
+        font-size: 19.14px;
+    }
+    main .explore .desc{
+        font-size: 12.18px;
+        margin: 17.4px 0 0 0;
+    }
+    main .explore .boxcontainers{
+        display: flex;
         flex-wrap: wrap;
     }
     main .budget{
@@ -475,16 +516,34 @@ main .footer .foot a:hover{
         width: 100%;
         flex-wrap: wrap;
     }
+    main .landlord{
+        padding: 87px 17.4px;
+    }
+    main .landlord .landt{
+        text-align: center;
+        font-size: 27px;
+    }
+    main .newsletter{
+        padding: 87px 17.4px;
+    }
+    main .newsletter .newsp{
+        font-size: 19.14px;
+    }
+    main .footer{
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 33.93px 27.84px;
+    }
 
-    main .boxcontainers{
+    /* main .boxcontainers{
         display: flex;
         flex-wrap: wrap;
-    }
+    } */
    
 }
 @media only screen and (max-width: 768px) {
     .bar{
-        margin-right: 4rem;
+        margin-right: 2rem;
     }
     .nav-menu {
         position: absolute;
